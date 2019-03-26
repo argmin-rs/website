@@ -1,0 +1,4 @@
++++
+title = "argmin{}"
+description = "Blah!"
++++

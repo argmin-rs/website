@@ -1,0 +1,30 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "argmin{}"
+theme = "kube"
+description = "Mathematical optimization in pure Rust"
+Paginate = 4
+publishDir = "public/"
+[Params]
+  RSSLink = "/index.xml"
+  author = "argmin" # add your company name
+  github = "https://github.com/argmin-rs/" # add your github profile name
+  #twitter = "" # add your twitter profile
+  #email = "myemail@myaddress.xxx"
+
+[[menu.main]]
+    name = "Code"
+    weight = -100
+    url = "https://github.com/argmin-rs/argmin"
+[[menu.main]]
+    name = "Docs"
+    weight = -100
+    url = "https://docs.rs/argmin/latest/argmin"
+# [[menu.main]]
+#     name = "Blog"
+#     weight = -100
+#     url = "/blog/"
+# [[menu.main]]
+#     name = "Faq"
+#     weight = -100
+#     url = "/faq/"
